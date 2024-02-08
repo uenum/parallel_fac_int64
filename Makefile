@@ -44,9 +44,8 @@ $(OBJDIR_RELEASE)\\main.o: main.cpp
 	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c main.cpp -o $(OBJDIR_RELEASE)\\main.o
 
 clean_release: 
-	cmd /c del /f $(OBJ_RELEASE) $(OUT_RELEASE)
-	cmd /c rd bin\\Release
-	cmd /c rd $(OBJDIR_RELEASE)
+	cmd //c del /f $(OBJ_RELEASE) $(OUT_RELEASE)
+	cmd //c rd bin\\Release
+	cmd //c rd $(OBJDIR_RELEASE)
 
 .PHONY: before_release after_release clean_release
-
