@@ -3,9 +3,8 @@ This is a simple program for calculating the factorial of large numbers, such as
 
 This is a pretty interesting example of a program to understand how FFT works. The program also uses parallel computing, it can use all the computing cores that are in your system, not just one.
 
-There is a compiled executable for Windows in the bin/Release folder.
+There is a compiled executable for Windows in the bin/Release folder. To build the program yourself use:
 
-To build the program yourself use:
 make -f Makefile
 
 To run the program you need to pass it the number whose factorial you want to calculate as a parameter, for example:
