@@ -9,4 +9,4 @@ make -f Makefile
 To run the program you need to pass it the number whose factorial you want to calculate as a parameter, for example:<br />
 parallel_fac_int64 1000000
 
-More about factorial https://factorial.su/
+More about factorial of large numbers https://factorial.su/
